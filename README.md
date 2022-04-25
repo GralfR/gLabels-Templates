@@ -2,9 +2,6 @@
 I'm gonna share my templates for gLabels I created to use my DYMO LabelWriter 450 Duo with gLabels-qt 3.99.
 This is my first project on github, so please be clement, if it is not that fancy as expected.
 
-# Where are the template-files?
-Well, had to take a short break. Please come back in a few days. I'll upload them...
-
 # What You may get...
 I've written some templates for DYMO D1 tape labels and for some media covers / jewel boxes to print on generic plain paper. I'm from Germany, so all my templates are for the German DIN A4 paper size. Some media templates may already exist inside the gLabels-library, but because I do not use expensive preformated paper I found it hard to find the right template inside the library by searching for manufacturer or model codes. Also, some templates did not exist like a cover for a slim jewel box for CD/DVD.
 
