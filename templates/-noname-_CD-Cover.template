@@ -1,0 +1,236 @@
+<!DOCTYPE Glabels-templates>
+<Glabels-templates>
+<!-- =================================================================== -->
+<!-- Eigene Label für Druck auf neutralem DinA4                          -->
+<!-- =================================================================== -->
+
+  <!-- =================================================================== -->
+  <!-- CD-Booklet Jewel Case Front double-sided                        	   -->
+  <!-- =================================================================== -->
+  <Template size="A4" brand="-noname-" part="CD-Booklet" description="CD Booklet (doublesided) Jewel-Case DinA4">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle width="120mm" x_waste="0pt" y_waste="0pt" id="0" height="240mm" round="0pt">
+      <Markup-margin size="0pt"/>
+      <Markup-line y1="120mm" x1="-3mm" y2="120mm" x2="123mm" />
+      <Layout ny="1" x0="45mm" nx="1" y0="28mm" dx="210mm" dy="297mm"/>
+    </Label-rectangle>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- CD-Slim-Cover, 140mm x 120mm, 2 per Page                            -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD-Slim" size="A4" description="CD Front-Cover Slim-Case DinA4">
+    <Meta category="label"/>
+    <Meta category="media"/>
+<!--    <Label-rectangle id="0" width="140mm" height="120mm" round="0mm" x_waste="5mm" y_waste="5mm">
+      <Markup-margin size="3.2mm"/>
+      <Markup-line x1="3mm" y1="-5mm" x2="3mm" y2="125mm"/>
+      <Markup-line x1="15mm" y1="-5mm" x2="15mm" y2="125mm"/>
+      <Markup-line x1="16.5mm" y1="-5mm" x2="16.5mm" y2="125mm"/>
+      <Markup-line x1="17.5mm" y1="-5mm" x2="17.5mm" y2="125mm"/>
+      <Markup-line x1="19mm" y1="-5mm" x2="19mm" y2="125mm"/>
+      <Layout nx="1" ny="2" x0="35mm" y0="18mm" dx="150mm" dy="140mm"/>
+    </Label-rectangle>
+-->
+    <Label-path id="0"  x_waste="0mm" y_waste="0mm" d_units="mm"
+      d="M 0 2
+        L 15 2 L 15 0 L 140 0 L 140 120 L 15 120 L 15 118 L 0 118 
+        Z" >
+      <Markup-margin size="3.2mm"/>
+      <Markup-line x1="3mm" y1="-5mm" x2="3mm" y2="125mm"/>
+      <Markup-line x1="15mm" y1="-5mm" x2="15mm" y2="125mm"/>
+      <Markup-line x1="16.5mm" y1="-5mm" x2="16.5mm" y2="125mm"/>
+      <Markup-line x1="17.5mm" y1="-5mm" x2="17.5mm" y2="125mm"/>
+      <Markup-line x1="19mm" y1="-5mm" x2="19mm" y2="125mm"/>
+      <Layout nx="1" ny="2" x0="35mm" y0="18mm" dx="150mm" dy="140mm"/>
+    </Label-path>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- CD-Slim-Cover, 260mm x 120mm, double-sided, flipped                 -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD-Slim dbl. flipped" size="A4" description="CD Slim-Case double-sided, left open (flipped), DinA4">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-path id="0"  x_waste="0mm" y_waste="0mm" d_units="mm"
+      d="M 2 260
+        L 2 245 L 0 245 L 0 0 L 120 0 L 120 245 L 118 245 L 118 260
+        Z" >
+      <Markup-margin size="3.2mm"/>
+      <Markup-line y1="257mm" x1="-5mm" y2="257mm" x2="125mm"/>
+      <Markup-line y1="245mm" x1="-5mm" y2="245mm" x2="125mm"/>
+      <Markup-line y1="243.5mm" x1="-5mm" y2="243.5mm" x2="125mm"/>
+      <Markup-line y1="242.5mm" x1="-5mm" y2="242.5mm" x2="125mm"/>
+      <Markup-line y1="241mm" x1="-5mm" y2="241mm" x2="125mm"/>
+      <Markup-line y1="120mm" x1="-5mm" y2="120mm" x2="125mm"/>
+      <Layout nx="1" ny="1" x0="45mm" y0="18mm" dx="150mm" dy="140mm"/>
+    </Label-path>
+  </Template>
+
+
+  <!-- =================================================================== -->
+  <!-- CD-Slim-Cover, 260mm x 120mm, double-sided                          -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD-Slim dbl. vert." size="A4" description="CD Slim-Case double-sided, vertical, DinA4">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-path id="0"  x_waste="0mm" y_waste="0mm" d_units="mm"
+      d="M 118 0
+        L 118 15 L 120 15 L 120 260 L 0 260 L 0 15 L 2 15 L 2 0
+        Z" >
+      <Markup-margin size="3.2mm"/>
+      <Markup-line y1="3mm" x1="-5mm" y2="3mm" x2="125mm"/>
+      <Markup-line y1="15mm" x1="-5mm" y2="15mm" x2="125mm"/>
+      <Markup-line y1="16.5mm" x1="-5mm" y2="16.5mm" x2="125mm"/>
+      <Markup-line y1="17.5mm" x1="-5mm" y2="17.5mm" x2="125mm"/>
+      <Markup-line y1="19mm" x1="-5mm" y2="19mm" x2="125mm"/>
+      <Markup-line y1="140mm" x1="-5mm" y2="140mm" x2="125mm"/>
+      <Layout nx="1" ny="1" x0="45mm" y0="18mm" dx="150mm" dy="140mm"/>
+    </Label-path>
+  </Template>
+
+
+  <!-- =================================================================== -->
+  <!-- Maxi-CD-Cover, 137+3+14+126 x 120mm, double-sided, landscape               -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="Maxi-CD double" size="other" width="297mm" height="210mm" description="Maxi-CD Cover double-sided, horizontal, DinA4 landscape">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-path id="0"  x_waste="0mm" y_waste="0mm" d_units="mm"
+      d="M 0 2
+        L 28 2 L 28 0 L 280 0 L 280 120 L 28 120 L 28 118 L 0 118 
+        Z" >
+      <Markup-line x1="14mm" y1="-5mm" x2="14mm" y2="125mm"/>
+      <Markup-line x1="17mm" y1="-5mm" x2="17mm" y2="125mm"/>
+      <Markup-line x1="154mm" y1="-5mm" x2="154mm" y2="125mm"/>
+      <Markup-line x1="276mm" y1="-5mm" x2="276mm" y2="125mm"/>
+      <Layout nx="1" ny="1" x0="8mm" y0="45mm" />
+    </Label-path>
+  </Template>
+
+
+  <!-- =================================================================== -->
+  <!-- CD-Slim-Cover, 260mm x 120mm, double-sided, landscape               -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD-Slim double" size="other" width="297mm" height="210mm" description="CD Slim-Case double-sided, horizontal, DinA4 landscape">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-path id="0"  x_waste="0mm" y_waste="0mm" d_units="mm"
+      d="M 0 2
+        L 15 2 L 15 0 L 260 0 L 260 120 L 15 120 L 15 118 L 0 118 
+        Z" >
+      <Markup-margin size="3.2mm"/>
+      <Markup-line x1="3mm" y1="-5mm" x2="3mm" y2="125mm"/>
+      <Markup-line x1="15mm" y1="-5mm" x2="15mm" y2="125mm"/>
+      <Markup-line x1="16.5mm" y1="-5mm" x2="16.5mm" y2="125mm"/>
+      <Markup-line x1="17.5mm" y1="-5mm" x2="17.5mm" y2="125mm"/>
+      <Markup-line x1="19mm" y1="-5mm" x2="19mm" y2="125mm"/>
+      <Markup-line x1="140mm" y1="-5mm" x2="140mm" y2="125mm"/>
+      <Layout nx="1" ny="1" x0="18mm" y0="45mm" />
+    </Label-path>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- CD-Front-Cover, 120mm x 120mm, 1 oben                              -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD-Front" size="A4" description="CD Front-Cover Jewel-Case DinA4 oben">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle id="0" width="120mm" height="120mm" round="0mm" x_waste="1mm" y_waste="1mm">
+      <Markup-margin size="3.2mm"/>
+      <Layout nx="1" ny="1" x0="60mm" y0="20mm" dx="130mm" dy="130mm"/>
+    </Label-rectangle>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- CD-Inlay Jewel-Case (back), 150mm x 117.5mm, 1 unten                -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD-Back" size="A4" description="CD Back-Cover/Inlay Jewel-Case DinA4 unten">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle id="0" width="150mm" height="117.5mm" round="0mm" x_waste="1mm" y_waste="1mm">
+    <Markup-rect x1="8mm" y1="2mm" w="134mm" h="113.5mm"/>
+    <Markup-line x1="6mm" y1="0mm" x2="6mm" y2="117.5mm"/>
+    <Markup-line x1="144mm" y1="0mm" x2="144mm" y2="117.5mm"/>
+      <Layout nx="1" ny="1" x0="30mm" y0="155mm" dx="160mm" dy="127.5mm"/>
+    </Label-rectangle>
+  </Template>
+
+
+  <!-- =================================================================== -->
+  <!-- CD-Front + Inlay, 1 Page                                            -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="CD Jewel" size="A4" description="CD Front-Cover + Inlay Jewel-Case DinA4">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-path id="0" x_waste="1mm" y_waste="1mm" d_units="mm"
+        d="M 0 0 L 120 0 L 120 120 L 0 120 Z
+           M 0 130 h 150 v 117.5 h -150 Z">
+      <Markup-line x1="6mm" y1="125mm" x2="6mm" y2="250mm"/>
+      <Markup-line x1="144mm" y1="125mm" x2="144mm" y2="250mm"/>
+      <Layout nx="1" ny="1" x0="30mm" y0="20mm" dx="130mm" dy="130mm"/>
+    </Label-path>
+  </Template>
+
+
+  <!-- =================================================================== -->
+  <!-- DVD Cover, 183mm x 273mm, Slim-Box 7mm                              -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="DVD Slim 7mm" size="A4" description="DVD Cover Slim-Box 7mm Front/Back">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle id="0" width="183mm" height="268mm" round="0mm" x_waste="1mm" y_waste="1mm">
+    <Markup-rect x1="2mm" y1="2mm" w="179mm" h="126.5mm"/>
+    <Markup-rect x1="2mm" y1="138mm" w="179mm" h="126.5mm"/>
+    <Markup-line x1="-3mm" y1="130.5mm" x2="186mm" y2="130.5mm"/>
+    <Markup-line x1="-3mm" y1="137.5mm" x2="186mm" y2="137.5mm"/>
+      <Layout nx="1" ny="1" x0="14mm" y0="10.5mm" dx="192mm" dy="286mm"/>
+    </Label-rectangle>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- DVD Cover, 183mm x 273mm, Standard-Box                              -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="DVD Standard" size="A4" description="DVD Cover Standard-Box Front/Back">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle id="0" width="183mm" height="273mm" round="0mm" x_waste="1mm" y_waste="1mm">
+    <Markup-rect x1="2mm" y1="2mm" w="179mm" h="126.5mm"/>
+    <Markup-rect x1="2mm" y1="145mm" w="179mm" h="126.5mm"/>
+    <Markup-line x1="-3mm" y1="130.5mm" x2="186mm" y2="130.5mm"/>
+    <Markup-line x1="-3mm" y1="143mm" x2="186mm" y2="143mm"/>
+      <Layout nx="1" ny="1" x0="14mm" y0="10.5mm" dx="192mm" dy="286mm"/>
+    </Label-rectangle>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- DVD Cover, 183mm x 282mm, Big-Box                                   -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="DVD Big" size="A4" description="DVD Cover Big-Box Front/Back">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle id="0" width="183mm" height="281mm" round="0mm" x_waste="1mm" y_waste="1mm">
+    <Markup-rect x1="2mm" y1="2mm" w="179mm" h="126.5mm"/>
+    <Markup-rect x1="2mm" y1="153mm" w="179mm" h="126.5mm"/>
+    <Markup-line x1="-3mm" y1="130mm" x2="186mm" y2="130mm"/>
+    <Markup-line x1="-3mm" y1="151mm" x2="186mm" y2="151mm"/>
+      <Layout nx="1" ny="1" x0="13.5mm" y0="8mm" dx="192mm" dy="286mm"/>
+    </Label-rectangle>
+  </Template>
+
+  <!-- =================================================================== -->
+  <!-- DVD Booklet, 123mm x 183mm, doublesided                              -->
+  <!-- =================================================================== -->
+  <Template brand="-noname-" part="DVD Booklet dbl." size="A4" description="DVD Booklet/Inlay">
+    <Meta category="label"/>
+    <Meta category="media"/>
+    <Label-rectangle id="0" width="183mm" height="246mm" round="0mm" x_waste="1mm" y_waste="1mm">
+    <Markup-rect x1="2mm" y1="2mm" w="179mm" h="119mm"/>
+    <Markup-rect x1="2mm" y1="125mm" w="179mm" h="119mm"/>
+    <Markup-line x1="-3mm" y1="123mm" x2="186mm" y2="123mm"/>
+      <Layout nx="1" ny="1" x0="14mm" y0="25mm" dx="192mm" dy="286mm"/>
+    </Label-rectangle>
+  </Template>
+
+</Glabels-templates>

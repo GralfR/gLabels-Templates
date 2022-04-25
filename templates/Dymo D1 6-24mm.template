@@ -1,0 +1,37 @@
+<!DOCTYPE Glabels-templates>
+<Glabels-templates>
+	<Template brand="DYMO" part="D1 6mm" size="roll" width="6mm" height="6mm" description="D1 Tape different colors (436xx)"> 
+		<Label-continuous id="0" width="6mm" min_height="0mm" max_height="7000mm" default_height="20mm">
+			<Markup-margin y_size="-11mm" x_size="1mm"/>
+			<Layout nx="1" ny="1" x0="0mm" y0="0mm" dx="6mm" dy="6mm"/>
+		</Label-continuous>
+	</Template>
+
+	<Template brand="DYMO" part="D1 9mm" size="roll" width="9mm" height="9mm" description="D1 Tape different colors (409xx)"> 
+		<Label-continuous id="0" width="9mm" min_height="0mm" max_height="7000mm" default_height="20mm">
+			<Markup-margin y_size="-11mm" x_size="1mm"/>
+			<Layout nx="1" ny="1" x0="0mm" y0="0mm" dx="9mm" dy="9mm"/>
+		</Label-continuous>
+	</Template>
+
+	<Template brand="DYMO" part="D1 12mm" size="roll" width="12mm" height="12mm" description="D1 Tape different colors (450xx)"> 
+		<Label-continuous id="0" width="12mm" min_height="0mm" max_height="7000mm" default_height="20mm">
+			<Markup-margin y_size="-11mm" x_size="1mm"/>
+			<Layout nx="1" ny="1" x0="0mm" y0="0mm" dx="12mm" dy="12mm"/>
+		</Label-continuous>
+	</Template>
+
+	<Template brand="DYMO" part="D1 19mm" size="roll" width="19mm" height="19mm" description="D1 Tape different colors (458xx)"> 
+		<Label-continuous id="0" width="19mm" min_height="0mm" max_height="7000mm" default_height="20mm">
+			<Markup-margin y_size="-11mm" x_size="1mm"/>
+			<Layout nx="1" ny="1" x0="0mm" y0="0mm" dx="19mm" dy="19mm"/>
+		</Label-continuous>
+	</Template>
+
+	<Template brand="DYMO" part="D1 24mm" size="roll" width="24mm" height="24mm" description="D1 Tape different colors (537xx)"> 
+		<Label-continuous id="0" width="24mm" min_height="0mm" max_height="7000mm" default_height="30mm">
+			<Markup-margin y_size="-11mm" x_size="1mm"/>
+			<Layout nx="1" ny="1" x0="0mm" y0="0mm" dx="24mm" dy="24mm"/>
+		</Label-continuous>
+	</Template>
+</Glabels-templates>
